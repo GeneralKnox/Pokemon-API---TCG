@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: "Pokemon";
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url("/img/pokeBg.png");
+  background-repeat: no-repeat;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+div{
+  display:flex;
+  align-content: center;
+}
+button{
+  text-align: center;
+  color:white;
+}
+.pokeLogo{
+  width:30%;
+}
+button{
+  color:black;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
